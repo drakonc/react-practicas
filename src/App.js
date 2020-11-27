@@ -4,7 +4,8 @@ import { Router, Link } from "@reach/router";
 const App = () => (
   <div>
     <nav>
-      <Link to="/">Home</Link> <Link to="dashboard">Dashboard</Link>
+      <Link to="/">Home</Link>
+      <Link to="dashboard">Dashboard</Link>
     </nav>
     <Router>
       <Home path="/" />
